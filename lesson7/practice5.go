@@ -5,14 +5,11 @@ import "fmt"
 func main() {
 
 	var number int
-	var sum int
 
-	fmt.Print("Укажите ваше число")
+	fmt.Print("Введите число: ")
 	fmt.Scan(&number)
 
 	for i := 1; i <= number; i++ {
-		sum = sum + i
+		fmt.Println(i, "* 2 =", i*2)
 	}
-	fmt.Println("Сумма:", sum)
-
 }
