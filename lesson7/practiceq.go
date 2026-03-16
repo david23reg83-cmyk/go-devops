@@ -4,12 +4,12 @@ import "fmt"
 
 func main() {
 
-	var number int 
+	var number int
 
-	fmt.Print("укажите число: ")
+	fmt.Println("Число:")
 	fmt.Scan(&number)
 
 	for i := 1; i <= 10; i++ {
-		if i % 2 == 0
+		fmt.Println(number, "*", i, "=", number*i)
 	}
-} 
+}
